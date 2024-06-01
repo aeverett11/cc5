@@ -23,3 +23,19 @@ class Employee {
         // Bonus calculation for managers
         return (bonus * baseSalary) + baseSalary;
       }
+
+ // Create an instance of the Manager class
+const manager1 = new Manager('Bob Ross', 6600, 'Marketing');
+const annualSalary1 = manager1.calculateAnnualSalary();
+
+console.log(`Manager: ${manager1.name}`);
+console.log(`Department: ${manager1.department}`);
+console.log(`Annual Salary: $${annualSalary1}`);
+
+// Create another instance of the Manager class
+const manager2 = new Manager('Debbie Little', 7205, 'Marketing');
+const annualSalary2 = manager2.calculateAnnualSalary();
+
+console.log(`Manager: ${manager2.name}`);
+console.log(`Department: ${manager2.department}`);
+console.log(`Annual Salary: $${annualSalary2}
